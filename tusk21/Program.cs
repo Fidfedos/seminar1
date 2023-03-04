@@ -12,7 +12,7 @@ int z2 = Coordinate("z", "B");
 int Coordinate(string X, string Y)
 {
     Console.Write($"Введите координату {X} точки {Y}: ");
-    return Convert.ToInt16(Console.ReadLine());
+    return Convert.ToInt32(Console.ReadLine());
 }
 
 double Decision(double x1, double x2, 
